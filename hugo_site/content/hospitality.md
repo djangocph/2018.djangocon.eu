@@ -9,7 +9,7 @@ menu:
 
 # Hospitality
 
-It's a good idea to book your accommodation early on. One option is to buy a ticket and use the attendee channels to organize accommodation with others (this solution is coming up shortly). You may also prefer a classic hotel or hostel.
+It's a good idea to book your accommodation early on. One option is to buy a ticket and use the attendee channels ([Slack invitation link](https://join.slack.com/t/djangoconeurope2019/shared_invite/enQtNTExODc1NDk5NDk0LWQ1MmM1YzBjZTNhZWZjODc3YTRlNGJjNTljYTMyZDgzM2E3NGU3YjY0ZjBiM2E4YmQxMDQ4NTU1NjQxMTdjMzE)) to organize accommodation with others. You may also prefer a classic hotel or hostel.
 
 We have a few accommodation deals with hotels and hostels near the venue. Some discounts also cover days before and after the event.
 
