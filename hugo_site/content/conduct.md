@@ -112,7 +112,7 @@ If you feel unsafe reporting in person, you may choose someone to represent you.
 When handling a report, we follow our [response guidelines](/conduct-response/).
 
 ## Emergencies
-If you're currently afraid of your physical safety or are in danger, contact local law enforcement in Denmark:
+If you are in danger or physical distress, contact local law enforcement or emergency services in Denmark:
 
 * Emergency (Fire, Medical, Police): 112
 * Police directly: 114
