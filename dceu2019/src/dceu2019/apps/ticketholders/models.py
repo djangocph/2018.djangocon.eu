@@ -69,3 +69,36 @@ class BicycleBooking(models.Model):
 
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now=True)
+
+
+class TShirtPreference(models.Model):
+
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    confirmed = models.BooleanField(
+        default=False,
+        help_text="Check this field to confirm this."
+    )
+    size = models.CharField(
+        max_length=255,
+        choices=[
+            ("XS", "Extra small"),
+            ("S", "Small"),
+            ("M", "Medium"),
+            ("L", "Large"),
+            ("XL", "Extra large"),
+            ("XXL", "Extra extra large"),
+            ("XXXL", "Larger than XXL"),
+        ],
+        default="medium",
+    )
+    fit = models.CharField(
+        max_length=255,
+        choices=[
+            ("fitted", "fitted"),
+            ("classic", "classic"),
+        ],
+        default="medium",
+    )
+
+    created = models.DateTimeField(auto_now_add=True)
+    modified = models.DateTimeField(auto_now=True)

@@ -17,3 +17,14 @@ class BicycleBookingAdmin(admin.ModelAdmin):
 
     def email(self, instance):
         return instance.user.email
+
+
+@admin.register(models.TShirtPreference)
+class TShirtPreferenceAdmin(admin.ModelAdmin):
+
+    list_filter = ('confirmed',)
+
+    list_display = ('email', 'confirmed', 'modified',)
+
+    def email(self, instance):
+        return instance.user.email

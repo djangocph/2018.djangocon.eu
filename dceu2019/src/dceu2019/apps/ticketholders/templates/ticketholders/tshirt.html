@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}T-shirt preference{% endblock %}
+
+{% block content %}
+
+<h1>Your t-shirt preference</h1>
+
+<p>T-shirts will be made on-site! And you can try it out and choose a color there.</p>
+
+<p><strong>But we need your help!</strong> To have somewhat the right t-shirts ready, we need to know what size and fit you would like.</p>
+
+<style>
+#id_size,
+#id_size li,
+#id_fit li,
+#id_fit
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-indent: 0;
+}
+#id_size input,
+#id_fit input
+{
+    float: left;
+    margin-right: 10px;
+}
+</style>
+
+<form method="POST" style="width: 100%">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <p><button type="submit">Save changes</button></p>
+</form>
+
+{% endblock %}
