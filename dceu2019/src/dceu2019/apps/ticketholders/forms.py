@@ -1,6 +1,7 @@
 from django import forms
 
 from . import models
+from ..invoices.models import TicketbutlerTicket
 
 
 class BicycleBookingForm(forms.ModelForm):
@@ -22,3 +23,13 @@ class TShirtForm(forms.ModelForm):
             'fit': forms.widgets.RadioSelect,
         }
         fields = ('size', 'fit', 'confirmed')
+
+
+class SprintsForm(forms.ModelForm):
+
+    class Meta:
+        model = TicketbutlerTicket
+        widgets = {
+            'size': forms.widgets.RadioSelect
+        }
+        fields = ('sprints',)
