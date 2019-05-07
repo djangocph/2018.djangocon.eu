@@ -80,7 +80,7 @@ Your report will be treated confidentially and only discussed within the CoC tea
 
 Our Code of Conduct team consists of:
 
- * Elvis Camilo: [evscamilo@gmail.com](mailto:evscamilo@gmail.com)
+ * Elvis Camilo
  * Jessica Upani: [nabbygirl@gmail.com](nabbygirl@gmail.com)
  * Sarah Braun: [sarah@triplesec.tech](mailto:sarah@triplesec.tech)
  * Víðir Valberg Guðmundsson: [valberg@orn.li](mailto:valberg@orn.li)
